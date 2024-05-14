@@ -1,0 +1,6 @@
+﻿services:
+  ephotos:
+    image: ephotos
+    build:
+      context: .
+      dockerfile: ePhotos/Dockerfile
